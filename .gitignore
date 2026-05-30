@@ -1,0 +1,47 @@
+# ConnectTel Churn Platform — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files — keep sample)
+*.csv.gz
+*.parquet
+
+# Models (large binaries — use DVC in production)
+*.h5
+*.pb
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dashboard
+.streamlit/
+
+# Deployment
+*.pem
+*.key

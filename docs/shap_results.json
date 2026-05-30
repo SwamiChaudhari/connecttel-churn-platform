@@ -1,0 +1,64 @@
+{
+  "top_features": [
+    {
+      "feature": "has_autopay",
+      "importance": 0.32661331727308346
+    },
+    {
+      "feature": "contract_risk_score",
+      "importance": 0.2727715484457206
+    },
+    {
+      "feature": "loyalty_score",
+      "importance": 0.20539295218808903
+    },
+    {
+      "feature": "PaymentMethod",
+      "importance": 0.2014169297435978
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.16613435053169315
+    },
+    {
+      "feature": "has_fiber",
+      "importance": 0.158665565889679
+    },
+    {
+      "feature": "churn_risk_index",
+      "importance": 0.13171125191243746
+    },
+    {
+      "feature": "OnlineSecurity",
+      "importance": 0.11083026566585938
+    },
+    {
+      "feature": "TechSupport",
+      "importance": 0.09930036003041613
+    },
+    {
+      "feature": "Contract",
+      "importance": 0.085232656391119
+    },
+    {
+      "feature": "SeniorCitizen",
+      "importance": 0.07319819284529734
+    },
+    {
+      "feature": "tenure",
+      "importance": 0.050250149315048044
+    },
+    {
+      "feature": "PaperlessBilling",
+      "importance": 0.04210059025790513
+    },
+    {
+      "feature": "charge_tenure_ratio",
+      "importance": 0.03777518679875533
+    },
+    {
+      "feature": "InternetService",
+      "importance": 0.03206076366986526
+    }
+  ]
+}

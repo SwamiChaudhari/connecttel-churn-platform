@@ -1,0 +1,15 @@
+# Render Blueprint — Deploy Churn Platform on Render
+services:
+  - type: web
+    name: connecttel-churn-platform
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python run_all.py
+    startCommand: streamlit run streamlit_app/app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: "true"
+    healthCheckPath: /_stcore/health
+    autoDeploy: true

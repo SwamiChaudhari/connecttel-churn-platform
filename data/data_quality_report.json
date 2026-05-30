@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-05-30T14:43:52.406245",
+  "original_shape": [
+    10491,
+    21
+  ],
+  "cleaned_shape": [
+    10476,
+    21
+  ],
+  "rows_removed": 15,
+  "duplicates_removed": 15,
+  "missing_values_before": {
+    "customerID": 0,
+    "gender": 0,
+    "SeniorCitizen": 0,
+    "Partner": 0,
+    "Dependents": 0,
+    "tenure": 0,
+    "PhoneService": 0,
+    "MultipleLines": 0,
+    "InternetService": 0,
+    "OnlineSecurity": 0,
+    "OnlineBackup": 0,
+    "DeviceProtection": 0,
+    "TechSupport": 0,
+    "StreamingTV": 0,
+    "StreamingMovies": 0,
+    "Contract": 0,
+    "PaperlessBilling": 0,
+    "PaymentMethod": 0,
+    "MonthlyCharges": 0,
+    "TotalCharges": 52,
+    "Churn": 0
+  },
+  "missing_values_after": {
+    "customerID": 0,
+    "gender": 0,
+    "SeniorCitizen": 0,
+    "Partner": 0,
+    "Dependents": 0,
+    "tenure": 0,
+    "PhoneService": 0,
+    "MultipleLines": 0,
+    "InternetService": 0,
+    "OnlineSecurity": 0,
+    "OnlineBackup": 0,
+    "DeviceProtection": 0,
+    "TechSupport": 0,
+    "StreamingTV": 0,
+    "StreamingMovies": 0,
+    "Contract": 0,
+    "PaperlessBilling": 0,
+    "PaymentMethod": 0,
+    "MonthlyCharges": 0,
+    "TotalCharges": 0,
+    "Churn": 0
+  },
+  "data_types": {
+    "customerID": "str",
+    "gender": "str",
+    "SeniorCitizen": "int64",
+    "Partner": "str",
+    "Dependents": "str",
+    "tenure": "int64",
+    "PhoneService": "str",
+    "MultipleLines": "str",
+    "InternetService": "str",
+    "OnlineSecurity": "str",
+    "OnlineBackup": "str",
+    "DeviceProtection": "str",
+    "TechSupport": "str",
+    "StreamingTV": "str",
+    "StreamingMovies": "str",
+    "Contract": "str",
+    "PaperlessBilling": "str",
+    "PaymentMethod": "str",
+    "MonthlyCharges": "float64",
+    "TotalCharges": "float64",
+    "Churn": "str"
+  },
+  "numeric_summary": {
+    "SeniorCitizen": {
+      "mean": 0.16,
+      "median": 0.0,
+      "std": 0.37,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "tenure": {
+      "mean": 28.76,
+      "median": 25.0,
+      "std": 20.18,
+      "min": 1.0,
+      "max": 72.0
+    },
+    "MonthlyCharges": {
+      "mean": 68.78,
+      "median": 68.78,
+      "std": 28.86,
+      "min": 19.3475,
+      "max": 117.73
+    },
+    "TotalCharges": {
+      "mean": 1974.77,
+      "median": 1460.22,
+      "std": 1717.48,
+      "min": 55.605000000000004,
+      "max": 7235.51
+    }
+  },
+  "outliers_detected": {
+    "SeniorCitizen": 1677,
+    "tenure": 0,
+    "MonthlyCharges": 0,
+    "TotalCharges": 313
+  }
+}
